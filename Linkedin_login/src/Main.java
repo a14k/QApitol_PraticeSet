@@ -8,7 +8,7 @@ public class Main
  public static void main(String args[])throws IOException
  {
      WebDriver driver=new ChromeDriver();
-     String password ="ankambast@28";
+     String password ="heyiam";
      driver.get("https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin");
      driver.findElement(By.id("username")).sendKeys("ankita.ambast30@gmail.com");
      driver.findElement(By.id("password")).sendKeys(password);
