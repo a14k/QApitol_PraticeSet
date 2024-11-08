@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="First Suite">
+
+    <!--  	<listeners>
+            <listener
+                class-name="com.bridgelabz.linkedin.extentreportlistener.ExtentReporterNG"></listener>
+        </listeners>-->
+    <test name="QApitol QA">
+        <classes>
+            <class name="com.qapital.testcases.LoginPageTestCase"></class>
+        </classes>
+    </test>
+</suite>
