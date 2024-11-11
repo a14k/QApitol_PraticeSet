@@ -17,6 +17,8 @@ public class Main
         register.createAccount();
         Login login=new Login (driver);
         login.letslogin();
+        Createpost cp=new Createpost (driver);
+        cp.post();
         driver.close();
         
     }
